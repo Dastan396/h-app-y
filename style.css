@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+#header {
+    padding: 40px 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text {
+    display: flex;
+    gap: 2pc;
+    a {
+font-size: 15px;
+font-weight: 400;
+color: #666666;
+
+    }
+    button {
+font-size: 14px;
+font-weight: 400;
+color: white;
+background: black;
+padding: 10px 30px;
+border: 2px solid rgb(243, 236, 236);
+border-radius: 10px;
+transition: 0.8s;
+
+    }
+    button:hover {
+background: transparent;
+color: rgb(7, 7, 7);
+    }
+}
+#hero {
+    padding: 60px 0;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-block {
+    h1 {
+font-size: 54px;
+font-weight: 400;
+line-height: 59.4px;
+color: #222222;
+padding-top: 30px;
+    }
+    p {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #666666;
+padding: 20px 0;
+    }
+    button {
+        gap: 2pc;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 2px;
+color: white;
+padding: 10px 25px;
+border: 2px solid blue;
+border-radius: 5px;
+background: black;
+transition: 0.8s;
+    }
+    button:hover {
+        background: transparent;
+        color: rgb(7, 7, 7);
+            }
+
+
+    }
+    #phone {
+        background: #222222;
+        padding-top: 50px;
+        height: 1200px;
+        width: 1300px;
+    }
+   .phone {
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 10px 0;
+    h1 {
+font-size: 14px;
+font-weight: 400;
+color: white;
+
+    }
+    h2 {
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+color: white;
+    }
+   }
+   .phone-blocks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+   }
+   .phone-img {
+    background: white;
+    width: 350px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+position: relative;
+   
+
+   }
+   .phone-text {
+    background: white;
+    position: absolute;
+    top: 240px;
+    right: 70px;
+    height: 220px;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #0278ED;
+        padding: 20px 0;
+            }
+            p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.4px;
+           color: #222222;
+        }
+   }
+   .phone-btn {
+    display: flex;
+    align-items: center;
+    gap: 2pc;
+    padding-top: 20px;
+   }
+   #minute {
+    background: #FF5437;
+padding-top: 50px;
+   }
+   .minute {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .minute-block {
+    h1 {
+font-size: 75px;
+font-weight: 400;
+line-height: 96px;
+color: white;
+    }
+    span {
+        font-size: 25px;   
+    }
+   }
+   #happy {
+    padding-top: 50px;
+   }
+   .happy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   }
+   .happy-text {
+    h1 {
+font-size: 14px;
+font-weight: 400;
+color: #222222;
+padding-bottom: 30px;
+    }
+    h2 {
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+color: #222222;
+    }
+    p {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #666666;
+padding: 30px 0;    
+}
+
+       
+        
+
+    
+   }
+   #also {
+    background: #222222;
+    padding: 40px 0;
+   }
+   .also {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+font-size: 14px;
+font-weight: 400;
+color: white;
+    }
+   }
